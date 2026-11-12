@@ -1,0 +1,77 @@
+.abw-panel {
+  max-width: 1280px;
+}
+
+.abw-preview-card {
+  background: #f6f8fa;
+  border: 1px solid #d9e0e6;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.abw-preview-stage {
+  background: #fff;
+  border: 1px solid #d9e0e6;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.abw-preview-base {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+#abw_preview_overlays {
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+}
+
+.abw-preview-watermark {
+  height: auto;
+  position: absolute;
+}
+
+.abw-types {
+  margin-bottom: 15px;
+}
+
+.abw-type-option {
+  align-items: center;
+  background: #fff;
+  border: 1px solid #d9e0e6;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  min-height: 48px;
+  padding: 10px;
+}
+
+.abw-type-option small {
+  color: #6c7781;
+  margin-left: auto;
+}
+
+.abw-progress {
+  height: 28px;
+  margin: 18px 0;
+}
+
+.abw-progress .progress-bar {
+  line-height: 28px;
+  min-width: 3em;
+}
+
+.abw-uninstall-warning {
+  margin: 20px 0 0;
+}
+
+@media (max-width: 767px) {
+  .abw-preview-card {
+    margin-top: 20px;
+  }
+}
