@@ -7,6 +7,10 @@ Modulo sviluppato da **Filippo Bonanno** per [A.B. Tecnology](https://www.abtecn
 - Anteprima prima di attivarlo; disinstallazione bloccata finché il catalogo non è stato rigenerato pulito.
 - PHP + GD, nessuna dipendenza esterna; aggiornamenti incrementali in `upgrade/`.
 
+![Configurazione di abwatermark con anteprima della filigrana](docs/configurazione.jpg)
+
+<sub>Back office di un PrestaShop 9.1 di prova: impostazioni, anteprima, formati protetti e lavorazione del catalogo esistente.</sub>
+
 ---
 
 ## Guida d'uso (versione 1.0.x)
